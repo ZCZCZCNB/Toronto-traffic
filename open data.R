@@ -2,6 +2,8 @@ git config --global user.name "ZCZCZCNB"
 git config --global user.email "chenxutao99@gmail.com"
 git config --global --list
 
+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
+
 use_git_config(
   user.name = "ZCZCZCNB",
   user.email = "chenxutao99@gmail.com"
