@@ -12,4 +12,4 @@ total_cars <- sample(5000:20000, length(years), replace = TRUE) # 汽车数量
 simulated_data <- data.frame(year = years, month = months, total_peds = total_peds, total_cars = total_cars)
 
 # 查看前几行数据
-head(simulated_data)
+head(simulated_data) 

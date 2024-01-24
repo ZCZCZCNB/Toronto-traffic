@@ -142,3 +142,4 @@ ggplot(processed_data, aes(x = total_cars, y = total_peds)) +
   geom_smooth(method = "lm", color = "blue") +  # 添加线性拟合线
   labs(title = "Relationship Between Monthly Car and Pedestrian Counts (2015-2019)",
        x = "Total Cars", y = "Total Pedestrians")
+ 
