@@ -1,0 +1,32 @@
+---
+title: "The connection between pedestrians, vehicles and Toronto"
+subtitle: Impact on urban transportation and commerce in Toronto based on pedestrian-vehicle correlations"
+author: 
+  - Xutao Chen
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "Pedestrian and vehicle-related data have an important impact on decisions such as transportation planning in Toronto, and their research plays an important role in everything from improving the efficiency of city operations to promoting resident well-being and environmental sustainability. This report is based on research on trends and correlations in pedestrian and vehicle counts over time to explore the current status of Toronto's transportation planning and discuss future transportation and business decisions. "
+output:
+  bookdown::pdf_document2
+toc: FALSE
+thanks: "All data and scripts available at https://github.com/hudyu17/bikeshare"
+fig_caption: yes
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(knitr)
+library(janitor)
+library(lubridate)
+library(opendatatoronto)
+library(tidyverse)
+library(tidyr)
+library(data.table)
+library(dplyr)
+library(kableExtra)
+library(ggplot2)
+library(readr)
+```
+
+------------------------------------------------------------------------
